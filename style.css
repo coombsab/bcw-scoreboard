@@ -1,0 +1,91 @@
+:root {
+  --theme-primary: #131212;
+  --theme-secondary: #a99fe0;
+  --theme-accent: #2f2e41;
+  --transparent-theme-accent: rgba(47, 46, 65, 0.75);
+  --transparent-theme-secondary: rgba(169, 159, 224, 0.25);
+  --white: #eeeaea;
+  --white-more-btn: #dee2e5;
+  --font-size: 16px;
+  --boldness: 700;
+  --section-padding: 3rem;
+  --navbar-padding: 1rem;
+  --button-padding: 0.25rem 0.75rem;
+  --card-rounded-corners: 0.5rem;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1593814681464-eef5af2b0628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.text-theme-primary {
+  color: var(--theme-primary);
+}
+
+.text-theme-secondary {
+  color: var(--theme-secondary);
+}
+
+.text-theme-accent {
+  color: var(--theme-accent);
+}
+
+.fw-bold {
+  font-weight: var(--boldness);
+}
+
+.bg-theme-primary {
+  background-color: var(--theme-primary);
+}
+
+.bg-theme-secondary {
+  background-color: var(--theme-secondary);
+}
+
+.bg-theme-accent {
+  background-color: var(--theme-accent);
+}
+
+.bg-transparent-theme-secondary {
+  background-color: var(--transparent-theme-secondary);
+}
+
+.bg-transparent-theme-accent {
+  background-color: var(--transparent-theme-accent);
+}
+
+.card-score {
+  height: 5rem;
+  width: 5rem;
+}
+
+.card-style-theme-secondary {
+  background-color: var(--transparent-theme-secondary);
+  border-radius: var(--card-rounded-corners);
+}
+
+.card-style-theme-accent {
+  background-color: var(--transparent-theme-accent);
+  border-radius: var(--card-rounded-corners);
+}
+
+.btn-card {
+  color: var(--theme-secondary);
+}
+
+.btn-card:hover {
+  color: var(--theme-primary);
+}
+
+.scoreboard {
+  font-size: 3rem;
+  font-weight: var(--boldness)
+}
+
+.player-delete:hover {
+  cursor: pointer;
+}
