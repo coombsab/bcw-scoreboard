@@ -21,20 +21,20 @@
     <section class="title-card container-fluid my-5">
       <div class="row justify-content-around align-items-center">
         <div class="col-md-6 px-5">
-          <div class="card-style-theme-accent text-theme-secondary text-center p-2">
+          <div class="card-style-theme-accent text-theme-secondary text-center p-2 my-2">
             <h1>Magic the Gathering</h1>
           </div>
         </div>
         <div class="col-md-4">
           <form id="player-form-name" onsubmit="addPlayer(event)">
-            <div class="d-flex">
+            <div class="d-flex justify-content-center justify-content-md-start">
               <input id="player-input-name" class="rounded" type="text" name="name" placeholder="Enter Name">
               <button class="btn bg-transparent-theme-accent text-theme-secondary fw-bold" type="submit">ADD</button>
             </div>
           </form>
         </div>
-        <div class="col-md-2">
-          <button class="btn bg-transparent-theme-accent text-theme-secondary fw-bold" onclick="resetScores()">RESET</button>
+        <div class="col-md-2 text-center text-md-start">
+          <button class="btn bg-transparent-theme-accent text-theme-secondary fw-bold my-2" onclick="resetScores()">RESET</button>
         </div>
       </div>
     </section>

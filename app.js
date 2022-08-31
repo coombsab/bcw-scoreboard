@@ -55,7 +55,7 @@ function drawScore () {
   players.forEach(player => {
     console.log (player.name, player.score, player.id)
     template+= `
-    <div class="col-md-4 p-5">
+    <div class="col-md-4 ps-5 pe-5 pt-3 pb-3 p-md-5">
       <div class="row card-style-theme-accent text-theme-secondary p-3 justify-content-center">
         <div class="col-10 align-self-center">
           <span class="fw-bold fs-1" id="player-name-${player.id}">${player.name}</span>
